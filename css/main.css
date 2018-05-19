@@ -1,0 +1,66 @@
+* {
+	font-family: 'monospace';
+	margin:  0;
+	padding:  0;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.container > div {
+	padding: 2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited, a:hover {
+	color: blue;
+}
+
+.fab {
+	color: black;
+}
+
+.profiles a {
+	display: block;
+}
+.profiles {
+	margin-top: 10px;
+	padding:  5px;
+}
+
+#avatar {
+	margin-bottom: 10px;
+	height: 100px;
+}
+@media screen and (min-width: 768px) {
+	.container {
+		flex-direction: row;
+		width: 90%;
+	}
+	.left {
+		margin-right: 2em;
+	}
+	.right {
+		
+	}
+	#avatar {
+		height: 200px;
+	}
+}
+
+.hero {
+	padding: 2em;
+	vertical-align: center;
+	font-weight: 100;
+}
+
+img {
+	border-radius: 10px;
+}
