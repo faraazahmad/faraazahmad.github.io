@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 * {
-	font-family: 'monospace';
+	font-family: 'Space Mono', monospace;
 	margin:  0;
 	padding:  0;
 }
@@ -33,6 +35,9 @@ a:link, a:visited, a:hover {
 
 .profiles a {
 	display: block;
+	font-family: monospace;
+	font-size: 1.25em;
+	margin-bottom: 2px;
 }
 .profiles {
 	margin-top: 10px;
@@ -89,10 +94,9 @@ a:link, a:visited, a:hover {
 	font-weight: 100;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.025);
-	transition: background-color 0.15s ease-out;
 }
 .topic:hover {
-	background-color: rgba(0, 0, 0, 0.05);
+	background-color: rgba(0, 0, 0, 0.035);
 }
 
 .grey-bg {
