@@ -1,0 +1,21 @@
+hr {
+    color: #efefef;
+}
+
+.fab {
+    color: black;
+}
+
+.topic {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.topic:hover {
+    background-color: rgba(0, 0, 0, 0.035);
+}
+
+a:link,
+a:visited,
+a:hover {
+    color: blue;
+}

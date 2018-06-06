@@ -1,0 +1,30 @@
+body, html {
+    background-color: #000;
+    color: #eee;
+}
+
+hr {
+    color: #6b6b6b;
+}
+
+.fab {
+    color: #eee;
+}
+
+img {
+    opacity: 0.75;
+}
+
+.topic {
+    background-color: rgba(255, 255, 255, 0.025);
+}
+
+.topic:hover {
+    background-color: rgba(255, 255, 255, 0.035);
+}
+
+a:link,
+a:visited,
+a:hover {
+    color: blue;
+}

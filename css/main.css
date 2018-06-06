@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 * {
-	font-family: 'Space Mono', monospace;
+	font-family: 'Source Code Pro', monospace;
 	margin:  0;
 	padding:  0;
 }
@@ -19,14 +19,6 @@
 
 a {
 	text-decoration: none;
-}
-
-a:link, a:visited, a:hover {
-	color: blue;
-}
-
-.fab {
-	color: black;
 }
 
 .typed {
@@ -95,10 +87,6 @@ a:link, a:visited, a:hover {
 	vertical-align: center;
 	font-weight: 100;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.025);
-}
-.topic:hover {
-	background-color: rgba(0, 0, 0, 0.035);
 }
 
 .grey-bg {
