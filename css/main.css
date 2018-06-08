@@ -62,6 +62,14 @@ a {
 	height: 100px;
 	border-radius: 5px;
 }
+
+.topic {
+	padding: 1.25em;
+	vertical-align: center;
+	font-weight: 100;
+	text-align: center;
+}
+
 @media screen and (min-width: 768px) {
 	.container {
 		flex-direction: row;
@@ -80,13 +88,9 @@ a {
 	.interests {
 		flex-direction: row;
 	}
-}
-
-.topic {
-	padding: 2em;
-	vertical-align: center;
-	font-weight: 100;
-	text-align: center;
+	.topic {
+		padding: 2em;
+	}
 }
 
 .grey-bg {
