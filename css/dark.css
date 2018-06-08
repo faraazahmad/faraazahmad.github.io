@@ -7,7 +7,7 @@ hr {
     color: #6b6b6b;
 }
 
-.fab {
+.fab, .fas {
     color: #eee;
 }
 
@@ -16,11 +16,11 @@ img {
 }
 
 .topic {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .topic:hover {
-    background-color: rgba(255, 255, 255, 0.075);
+    background-color: rgba(255, 255, 255, 0.125);
 }
 
 a:link,
