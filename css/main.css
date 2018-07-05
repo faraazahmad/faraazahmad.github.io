@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,500,900');
 
 * {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin:  0;
 	padding:  0;
 	overflow-x: hidden;
@@ -188,7 +188,7 @@ a {
 	.logo {
 		position: fixed;
 		top: 0;
-		left: 2rem;
+		right: 2rem;
 	}
 }
 
@@ -207,6 +207,14 @@ a {
 
 	.banner-head h2 {
 		font-size: 1.65rem;
+	}
+
+	#hello .banner-head h1 {
+		font-size: 2.75rem;
+	}
+
+	#hello .banner-head h2 {
+		font-size: 2.65rem;
 	}
 
 	.banner-body h2 {
