@@ -134,21 +134,33 @@ a:active {
 }
 
 .logo {
-	position: fixed;
-	top: 0;
-	left: 0;
 	height: 5em;
 	background: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+	.logo {
+		position: fixed;
+		left: 0;
+		top: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	.banner-content {
 		padding: 1em;
 	}
 	
-	.banner-head * {
+	.banner-head {
 		font-weight: 200;
-		font-size: 1em;
+	}
+
+	.banner-head h1 {
+		font-size: 0.75em;
+	}
+
+	.banner-head h2 {
+		font-size: 0.65em;
 	}
 
 	.banner-body h2 {
@@ -156,7 +168,17 @@ a:active {
 		font-weight: 400;
 	}
 
-	.sidebar, .logo {
+	.sidebar{
 		display: none;
+	}
+
+	.logo {
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+
+	#hello {
+		padding-bottom: 2em;
 	}
 }
