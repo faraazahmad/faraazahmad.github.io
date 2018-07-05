@@ -86,8 +86,8 @@ a:active {
 
 .sidebar {
 	position: fixed;
-	top: calc(45% + 10px);
-	left: -29em;
+	top: 45%;
+	left: -24.5%;
 	width: 100vh;
 	height: 1.5em;
 	background: rgba(255, 255, 255, 0.95);
@@ -99,7 +99,6 @@ a:active {
 .name {
 	font-weight: 200;
 	font-size: 1.1em;
-	padding-left: 1.25em;
 	letter-spacing: 3px;
 	display: inline-block;
 }
