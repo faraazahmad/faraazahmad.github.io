@@ -89,6 +89,7 @@ a:active {
 	top: calc(45% + 10px);
 	left: -29em;
 	width: 100vh;
+	height: 1.5em;
 	background: rgba(255, 255, 255, 0.95);
 	padding: 1em;
 	transform: rotate(-90deg);
@@ -133,6 +134,14 @@ a:active {
 	color: black;
 }
 
+.logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 5em;
+	background: white;
+}
+
 @media screen and (max-width: 768px) {
 	.banner-content {
 		padding: 1em;
@@ -148,7 +157,7 @@ a:active {
 		font-weight: 400;
 	}
 
-	.sidebar {
+	.sidebar, .logo {
 		display: none;
 	}
 }
