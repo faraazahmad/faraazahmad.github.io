@@ -33,13 +33,17 @@ a {
 .banner-content {
 	margin: auto;
 	width: 80%;
-	padding: 1.5rem;
 	font-family: 'Roboto', sans-serif;
 }
 
-.banner-head{
-	padding: 10% 0 0.5rem 0;
+#hello .banner-head {
+	padding: 10% 0 0rem 0;
 	font-size: 2.5rem;
+}
+
+.banner-head{
+	padding: 10% 0 0rem 0;
+	font-size: 2rem;
 }
 
 .banner-head * {
