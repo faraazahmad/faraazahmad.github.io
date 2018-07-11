@@ -271,3 +271,10 @@ a {
 	display: block;
 	padding: 0.5rem;
 }
+
+.fa-font:before {
+	font-family: 'Roboto', sans-serif;
+	color: #429bf4;
+	font-size: 1.2em;
+	content: "k";
+}
