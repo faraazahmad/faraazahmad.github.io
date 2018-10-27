@@ -43,7 +43,8 @@ p {
 
 .name {
     font-family: 'Rajdhani', sans-serif;
-    padding-bottom: 5rem;
+    padding-top: -5rem;
+    padding-bottom: 2rem;
 }
 
 .name a {
@@ -53,8 +54,10 @@ p {
 }
 
 .info {
-    font-style: italic;
     opacity: 0.8;
+    background: rgba(255, 255, 255, 0.07);
+    padding: 1.75rem;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -64,6 +67,7 @@ p {
 
     .info {
         font-size: 1.5rem;
+        padding: 3rem;
     }
 
     .navbar-dropdown .navbar-item {
