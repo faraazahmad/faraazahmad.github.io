@@ -19,3 +19,70 @@
 .navbar {
     padding: 1rem;
 }
+
+.navbar-brand {
+    position: relative;
+}
+
+.name {
+    font-size: 5vw;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.name a {
+    display: inline-block;
+    letter-spacing: 1rem;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 10px;
+}
+
+@keyframes syed {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.25;
+    }
+
+    100% {
+        opacity: 0.15;
+    }
+}
+
+@keyframes faraaz {
+    0% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.25;
+    }
+}
+
+@keyframes ahmad {
+    0% {
+        opacity: 0.15;
+    }
+
+    50% {
+        opacity: 0.25;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#syed {
+    animation: syed 2s linear infinite alternate-reverse;
+}
+#faraaz {
+    animation: faraaz 2s linear infinite alternate-reverse;
+}
+#ahmad {
+    animation: ahmad 2s linear infinite alternate-reverse;
+}
