@@ -1,3 +1,10 @@
+@import url("./overlay.css");
+@import url("./animations.css");
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 #banner {
     background-color: rgb(15, 1, 94);
     background-image: radial-gradient(at 50% 100%, rgba(123, 22, 255, 0.75), rgb(15, 1, 94));
@@ -8,12 +15,11 @@
 }
 
 #banner .navbar-dropdown .navbar-item {
-    color: #2b2b2b;
     transition: color 0.5s ease-out;
 }
 
 #banner .navbar-dropdown .navbar-item:hover {
-    color: rgb(123, 22, 255);
+    color: rgb(123, 22, 255) !important;
 }
 
 .navbar {
@@ -24,57 +30,48 @@
     position: relative;
 }
 
-.name {
-    font-size: 5vw;
+.navbar-brand .navbar-item {
+    font-weight: 700;
+    font-size: 3rem;
     font-family: 'Rajdhani', sans-serif;
 }
 
+.navbar-burger {
+    color: white;
+    margin: 1rem 0;
+}
+
+.name {
+    font-family: 'Rajdhani', sans-serif;
+    padding-bottom: 5rem;
+}
+
 .name a {
-    display: inline-block;
-    letter-spacing: 1rem;
-    text-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 10px;
+    font-size: 4rem;
+    line-height: 100%;
+    display: block;
 }
 
-@keyframes syed {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.25;
-    }
-
-    100% {
-        opacity: 0.15;
-    }
+.info {
+    font-style: italic;
+    opacity: 0.8;
 }
 
-@keyframes faraaz {
-    0% {
-        opacity: 0.25;
+@media screen and (min-width: 768px) {
+    .name a {
+        font-size: 7rem;
     }
 
-    50% {
-        opacity: 1;
+    .info {
+        font-size: 1.5rem;
     }
 
-    100% {
-        opacity: 0.25;
+    .navbar-dropdown .navbar-item {
+        color: #1b1b1b !important;
     }
 }
 
-@keyframes ahmad {
-    0% {
-        opacity: 0.15;
-    }
-
-    50% {
-        opacity: 0.25;
-    }
-
-    100% {
-        opacity: 1;
-    }
+@media screen and (max-width: 767px) {
 }
 
 #syed {
