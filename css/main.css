@@ -8,6 +8,7 @@ p {
 #banner {
     background-color: rgb(15, 1, 94);
     background-image: radial-gradient(at 50% 100%, rgba(123, 22, 255, 0.75), rgb(15, 1, 94));
+    box-shadow:  0 0 5px 10px rgba(0,0,0, 0.85);
 }
 
 #banner .hero-body {
@@ -58,6 +59,28 @@ p {
     background: rgba(255, 255, 255, 0.07);
     padding: 1.75rem;
     border-radius: 5px;
+}
+
+#about {
+    background-color: #07002A;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill * {
+    padding: 2rem;
+}
+
+.skill .icon {
+    font-size: 6rem;
+    opacity: 0.75;
+}
+
+.title, .subtitle {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 768px) {
