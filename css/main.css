@@ -115,17 +115,53 @@ p {
 }
 #faraaz {
     animation: faraaz 2s linear infinite alternate-reverse;
+    font-weight: 700;
 }
 #ahmad {
     animation: ahmad 2s linear infinite alternate-reverse;
 }
 .showcase {
     padding: 4rem 2rem;
-    background-image: radial-gradient(at 50% 100%, rgba(255, 255, 255, 0.85), rgb(0,0,0,0.05));
+    background-color: #fafafa;
 }
 
 .showcase h1 {
     font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.showcase h1 span {
+  color: #fafafa;
+  padding: 0 1.5rem;
+  position: relative;
+  border-radius: 500px;
+  z-index: 1;
+}
+
+.showcase h1:before {
+  content: "";
+  display: block;
+  height: 7.5px;
+  border-radius: 10px;
+  position: absolute;
+    top: 35%;
+  width: 100%;
+}
+.showcase h1:before {
+  left: 0;
+}
+
+#skills h1:before, #skills h1 span {
+    background: #0DC93F;
+}
+
+#projects h1:before, #projects h1 span {
+    background: #7198EB;
+}
+
+#blogs h1:before, #blogs h1 span {
+    background: #FF7F50;
 }
 
 .box {
