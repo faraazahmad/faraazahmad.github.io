@@ -9,11 +9,11 @@
     }
 
     50% {
-        opacity: 0.25;
+        opacity: 0.35;
     }
 
     75% {
-        opacity: 0.2;
+        opacity: 0.25;
     }
 
     100% {
@@ -49,11 +49,11 @@
     }
 
     25% {
-        opacity: 0.2;
+        opacity: 0.25;
     }
 
     50% {
-        opacity: 0.25;
+        opacity: 0.35;
     }
 
     75% {
