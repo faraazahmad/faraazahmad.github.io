@@ -133,7 +133,7 @@ p {
 
 .showcase h1 span {
   color: #fafafa;
-  padding: 0 1.5rem;
+  padding: 1.75px 1.5rem 0 1.5rem;
   position: relative;
   border-radius: 500px;
   z-index: 1;
@@ -180,4 +180,18 @@ p {
 
 .footer strong {
     color: white;
+}
+
+#banner .buttons {
+    justify-content: center;
+}
+
+.hero-foot {
+    z-index: 1;
+}
+
+#skills .skill-logo {
+    padding: 0.5rem;
+    margin: auto;
+    height: 10rem;
 }
