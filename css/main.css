@@ -194,3 +194,11 @@ p {
     padding: 1rem;
     font-size: 4rem;
 }
+
+#projects .box * {
+    margin-top: 1rem;
+}
+
+#bulma {
+    height: 2rem;
+}
