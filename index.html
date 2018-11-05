@@ -1,161 +1,215 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link 
-		rel="stylesheet"
-		href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-		crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
 
-	<link
-		rel="stylesheet"
-		type="text/css"
-		href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
-	<link
-		rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-		crossorigin="anonymous">
-
-
-	<title>Syed Faraaz Ahmad</title>
+    <script type="text/javascript" src="./js/site.js"></script>
+    <title>Syed Faraaz Ahmad</title>
 </head>
 <body>
-		<div id="hello" class="section active banner">
-			<div class="animated fadeIn banner-content">
-				<div class="banner-head">
-					<h1>Hi!</h1>
-					<h2>I am Faraaz.</h2>
-				</div>
-				<div class="banner-body">
-					<p>
-						I'm a Computer Engineering undergraduate working on <strong>Machine Learning</strong>,
-						<strong>Web development</strong> and <strong>App development</strong>. I also write
-						blog posts on programming and tech.
-						<br><br><br>
-						You can <strong>find me at:</strong><br><br>
-						<ul class="links">
-							<li id="linkedin">
-								<a href="https://www.linkedin.com/in/syed-faraaz-ahmad-211515123/">
-									<i class="fab fa-linkedin"></i>
-									LinkedIn
-								</a>
-							</li>
-							<li id="kaggle">
-								<a href="https://www.kaggle.com/faraazahmad">
-									<i class="fa fa-font"></i>
-									Kaggle
-								</a>
-							</li>
-							<li id="github">
-								<a href="http://github.com/faraazahmad/">
-									<i class="fab fa-github"></i>
-									Github
-								</a>
-							</li>
-							<li id="medium">
-								<a href="https://medium.com/@faraaz98/">
-									<i class="fab fa-medium"></i>
-									Medium
-								</a>
-							</li>
-							<li id="twitter">
-								<a href="https://twitter.com/Faraaz98">
-									<i class="fab fa-twitter"></i>
-									Twitter
-								</a>
-							</li>
-						</ul>
-					</p>
-				</div>
-			</div>
+    <section id="banner" class="hero is-black is-fullheight">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <nav class="navbar is-transparent">
+                <div class="navbar-brand">
+                    <span class="navbar-burger burger" data-target="navMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <a class="navbar-item">
+                        SFA
+                    </a>
+                </div>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="https://bulma.io/">
+                            Home
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+                                Docs
+                            </a>
+                            <div class="navbar-dropdown is-boxed">
+                                <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+                                    Overview
+                                </a>
+                                <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                                    Modifiers
+                                </a>
+                                <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                                    Columns
+                                </a>
+                                <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                                    Layout
+                                </a>
+                                <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                                    Form
+                                </a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                                    Elements
+                                </a>
+                                <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+                                    Components
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="navbar-end">
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="name">
+                            <a id="syed">SYED</a>
+                            <a id="faraaz">FARAAZ</a>
+                            <a id="ahmad">AHMAD</a>
+                        </div>
+                    </div>
+                    <div class="column is-two-fifths">
+                        <p class="info">
+                            I am an undergraduate in Computer Engineering at Jamia Millia 
+                            Islamia (New Delhi).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+            <div class="container">
+                <p>Wasssup</p>
+            </div>
+        </div>
+    </section>
 
-			<div class="next">
-				<a class="slide-down">
-					<i class="fas fa-arrow-down"></i>
-				</a>
-			</div>
-		</div>
+    
+    <section id="skills" class="showcase">
+        <div class="container">
+            <h1 class="title"><span>SKILLS</span></h1>
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<div class="section banner" id="mach-learn">
-			<div class="banner-content">
-				<div class="banner-head">
-					<h1>Machine Learning</h1>
-					<h2>Learning from data to develop intelligent software.</h2>
-				</div>
-				<div class="banner-body">
-					<h2>Blog posts</h2>
-					<a href="https://codeburst.io/an-introduction-to-neural-networks-part-1-47ba9cfcdd88">
-						Introduction to Neural networks &emsp;
-						<i class="fas fa-arrow-right"></i>
-					</a>
+    <section id="projects" class="showcase">
+        <div class="container">
+            <h1 class="title"><span>PROJECTS</span></h1>
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<h2>Projects</h2>
-					<a href="https://www.kaggle.com/faraazahmad/digits">
-						Digits Recognizer &emsp;
-						<i class="fas fa-arrow-right"></i>
-					</a>
-				</div>
-			</div>
+    <section id="blogs" class="showcase">
+        <div class="container">
+            <h1 class="title"><span>BLOGS</span></h1>
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+                <div class="tile is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                    <div class="tile is-child box">
+                        <p class="title">One</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<div class="next">
-				<a class="slide-down">
-					<i style="color: #fff" class="fas fa-arrow-down"></i>
-				</a>
-			</div>
-		</div>
+    <div id="overlay"></div>
 
-		<div class="section banner" id="web-dev">
-			<div class="banner-content">
-				<div class="banner-head">
-					<h1>Web Development</h1>
-					<h2>Frontend and backend development for the web</h2>
-				</div>
-				<div class="banner-body">
-					<h2>Blog posts</h2>
-					<div class="portfolio-items">
-						<a href="https://medium.com/the-wheel/getting-started-with-telegram-bots-2b1fe6c8b526">
-							Getting started with Telegram bots &emsp;
-							<i class="fas fa-arrow-right"></i>
-						</a>
-						<a href="https://codeburst.io/writing-your-first-package-in-elixir-part-1-901a5de071a6">
-							Writing your first package in Elixir &emsp;
-							<i class="fas fa-arrow-right"></i>
-						</a>
-					</div>
-				
-					<h2>Projects</h2>
-					<p>Coming soon ...</p>
-				</div>
-			</div>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
 
-			<div class="next">
-				<a class="slide-down">
-					<i style="color: #fff" class="fas fa-arrow-down"></i>
-				</a>
-			</div>
-		</div>
-
-		<div class="section banner" id="app">
-			<div class="banner-content">
-				<div class="banner-head">
-					<h1>App Development</h1>
-					<h2>Native and cross-platform mobile apps.</h2>
-				</div>
-				<div class="banner-body">
-					<h2>Blog posts</h2>
-					<a href="#">
-						Coming soon ...
-					</a>
-				
-					<h2>Projects</h2>
-					<p>Coming soon ...</p>
-				</div>
-			</div>
-			
-		</div>
-		
-		<img src="img/sitelogo.svg" class="logo">
-	</body>
+</body>
 </html>
