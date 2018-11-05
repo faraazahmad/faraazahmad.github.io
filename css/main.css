@@ -68,12 +68,8 @@ p {
     background-color: #07002A;
 }
 
-.skill {
-    text-align: center;
-}
-
 .skill * {
-    padding: 2rem;
+    text-align: center;
 }
 
 .skill .icon {
@@ -190,8 +186,11 @@ p {
     z-index: 1;
 }
 
-#skills .skill-logo {
-    padding: 0.5rem;
-    margin: auto;
-    height: 10rem;
+.skill-logo img {
+    height: 3.5rem;
+}
+
+.skill-logo i {
+    padding: 1rem;
+    font-size: 4rem;
 }
