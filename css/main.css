@@ -107,14 +107,14 @@ p {
 }
 
 #syed {
-    animation: syed 2s linear infinite alternate-reverse;
+    animation: syed 2.5s linear infinite alternate-reverse;
 }
 #faraaz {
-    animation: faraaz 2s linear infinite alternate-reverse;
+    animation: faraaz 2.5s linear infinite alternate-reverse;
     font-weight: 700;
 }
 #ahmad {
-    animation: ahmad 2s linear infinite alternate-reverse;
+    animation: ahmad 2.5s linear infinite alternate-reverse;
 }
 .showcase {
     padding: 4rem 2rem;
