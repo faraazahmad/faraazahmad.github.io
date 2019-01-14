@@ -203,3 +203,10 @@ p {
 #bulma {
     height: 2rem;
 }
+
+#logo {
+    font-style: oblique;
+    background: #c32439;
+    color: white;
+    padding: 0.005rem 1rem;
+}
