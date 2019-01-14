@@ -7,11 +7,11 @@ p {
 
 #banner {
     background-color: rgb(15, 1, 94);
-    background-image: radial-gradient(at 50% 100%, rgba(123, 22, 255, 0.75), rgb(15, 1, 94));
+    background-image: radial-gradient(at 50% 200%, rgba(243, 243, 243, 0.80), rgb(255, 255, 255));
 }
 
 #banner .hero-body {
-    color: #fff;
+    color: #000;
 }
 
 #banner .navbar-dropdown .navbar-item {
