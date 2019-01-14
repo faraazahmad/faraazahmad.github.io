@@ -7,7 +7,7 @@ p {
 
 #banner {
     background-color: rgb(15, 1, 94);
-    background-image: radial-gradient(at 50% 200%, rgba(243, 243, 243, 0.80), rgb(255, 255, 255));
+    background-image: radial-gradient(at 50% 0%, rgba(243, 243, 243, 0.95), rgb(255, 255, 255));
 }
 
 #banner .hero-body {
@@ -113,6 +113,7 @@ p {
 #faraaz {
     animation: faraaz 3s linear infinite alternate-reverse;
     font-weight: 600;
+    color: #c32439;
 }
 #ahmad {
     animation: ahmad 3s linear infinite alternate-reverse;
