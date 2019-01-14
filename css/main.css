@@ -59,7 +59,8 @@ p {
 
 .info {
     opacity: 0.8;
-    background: rgba(255, 255, 255, 0.07);
+    /* TODO: change background colour */
+    background: rgba(0, 0, 0, 0.07);
     padding: 1.75rem;
     border-radius: 5px;
 }
@@ -107,14 +108,14 @@ p {
 }
 
 #syed {
-    animation: syed 2.5s linear infinite alternate-reverse;
+    animation: syed 3s linear infinite alternate-reverse;
 }
 #faraaz {
-    animation: faraaz 2.5s linear infinite alternate-reverse;
-    font-weight: 700;
+    animation: faraaz 3s linear infinite alternate-reverse;
+    font-weight: 600;
 }
 #ahmad {
-    animation: ahmad 2.5s linear infinite alternate-reverse;
+    animation: ahmad 3s linear infinite alternate-reverse;
 }
 .showcase {
     padding: 4rem 2rem;
