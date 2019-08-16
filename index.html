@@ -4,266 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
     <script type="text/javascript" src="./js/site.js"></script>
     <title>Syed Faraaz Ahmad</title>
 </head>
 <body>
-    <section id="banner" class="hero is-light is-fullheight">
-        <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
-            <nav class="navbar is-transparent">
-                <div class="navbar-brand">
-                    <a id="logo" class="navbar-item">
-                        sfa.
-                    </a>
-                    <span class="navbar-burger burger" data-target="navMenu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </div>
-                
-                <div id="navMenu" class="navbar-menu">
-                    <div class="navbar-start">
-                        
-                    </div>
-
-                    <div class="navbar-end">
-                        <a class="navbar-item" href="https://www.linkedin.com/in/syed-faraaz-ahmad-211515123/">
-                            LinkedIn
-                        </a>
-                        <a class="navbar-item" href="https://github.com/faraazahmad">
-                            Github
-                        </a>
-                        <a class="navbar-item" href="https://medium.com/@faraaz98">
-                            Medium
-                        </a>
-                        <a class="navbar-item" href="https://twitter.com/@faraaz98">
-                            Twitter
-                        </a>
+    <div class="container">
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <span id="logo">sfa.</span>
+                </a>
+        
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+        
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-white">
+                                Github
+                            </a>
+                            <a class="button is-white">
+                                LinkedIn
+                            </a>
+                            <a class="button is-info">
+                                <strong>Download Resume</strong>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </div>
-    
-        <!-- Hero content: will be in the middle -->
+            </div>
+        </nav>
+    </div>
+    <section class="hero is-light">
         <div class="hero-body">
             <div class="container">
                 <div class="columns">
-                    <div class="column">
-                        <div class="name">
-                            <a id="syed">SYED</a>
-                            <a id="faraaz">FARAAZ</a>
-                            <a id="ahmad">AHMAD</a>
-                        </div>
+                    <div class="column greeting">
+                        <h1 class="title">Hi, I'm Faraaz</h1>
+                        <h2 class="subtitle">a full-stack web developer</h2>
                     </div>
-                    <div class="column is-two-fifths">
-                        <p class="info">
-                            Undergraduate in Computer Engineering at New Delhi, India.
-                        </p>
+                    <div class="person column">
+                        <img src="img/person_3.svg">
                     </div>
                 </div>
             </div>
         </div>
-    
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
+    </section>
+    <section class="hero">
+        <div class="hero-body">
             <div class="container">
-                <p class="buttons">
-                    <a href="https://drive.google.com/open?id=1yNoI2HiK-2y4EDM-slZ7njCQ6FLBMH64EvjE7gvR1W4" class="button is-medium is-danger">
-                        <span class="icon">
-                            <i class="far fa-file-alt"></i>
-                        </span>
-                        <span>View Resume</span>
-                    </a>
-                </p>
+                <h1 class="title">Projects</h1>
             </div>
         </div>
     </section>
-
-    
-    <section id="skills" class="showcase">
-        <div class="container">
-            <h1 class="title"><span>SKILLS</span></h1>
-            
-            <br>
-            <div class="columns">
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="node js logo">
-                    </div>
-                    <h2 class="title">Node.js</h2>
-                    <h3 class="subtitle">Intermediate</h3>
-                </div>
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby logo">
-                    </div>
-                    <h2 class="title">Ruby</h2>
-                    <h3 class="subtitle">Intermediate</h3>
-                </div>
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="js logo">
-                    </div>
-                    <h2 class="title">JavaScript</h2>
-                    <h3 class="subtitle">Intermediate</h3>
-                </div>
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="vue js logo">
-                    </div>
-                    <h2 class="title">Vue.js</h2>
-                    <h3 class="subtitle">Beginner</h3>
-                </div>
-            </div>
-            <br>
-            <div class="columns">
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" alt="rails logo">
-                    </div>
-                    <h2 class="title">Ruby on Rails</h2>
-                    <h3 class="subtitle">Intermediate</h3>
-                </div>
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ logo">
-                    </div>
-                    <h2 class="title">C++</h2>
-                    <h3 class="subtitle">Intermediate</h3>
-                </div>
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python">
-                    </div>
-                    <h2 class="title">Python</h2>
-                    <h3 class="subtitle">Beginner</h3>
-                </div>
-                <div class="skill column">
-                    <div class="skill-logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git logo">
-                    </div>
-                    <h2 class="title">Git</h2>
-                    <h3 class="subtitle">Intermediate</h3>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="projects" class="showcase">
-        <div class="container">
-            <h1 class="title"><span>PROJECTS</span></h1>
-            <div class="tile is-ancestor">
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <a class="title">Node Chat</a>
-                        <p>
-                            A chat server built using Nodejs, to which clients can connect 
-                            using the <code>telnet</code> command.
-                        </p>
-                        <a class="button is-light">Visit</a>
-                    </div>
-                    <div class="tile is-child box">
-                        <a class="title">ShellRB</a>
-                        <p>
-                            A Unix-like shell built using Ruby.
-                        </p>
-                        <a class="button is-light">Visit</a>
-                    </div>
-                </div>
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <a class="title">Hashes Chat</a>
-                        <p>
-                            A chat app for the Hashes: The programming club of Jamia Millia Islamia, New Delhi.
-                            It has features like database and authentication built in.
-                        </p>
-                        <a class="button is-light">Visit</a>
-                    </div>
-                    <div class="tile is-child box">
-                        <a class="title">Markr</a>
-                        <p>
-                            A live Markdown editor built using marked.js (for rendering Markdown) and Vue.js (for 2-way data binding).
-                        </p>
-                        <a class="button is-light">Visit</a>
-                    </div>
-                </div>
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <a class="title">Multi-tab Select</a>
-                        <p>
-                            A prototype for selecting multiple tabs in a browser, made as 
-                            a test prototype for GSoC 2018.
-                        </p>
-                        <a class="button is-light">Visit</a>
-                    </div>
-                    <div class="tile is-child box">
-                        <a class="title">Spring Fest Website</a>
-                        <p>
-                            The website for Spring Fest Jamia, the annual techno-cultural fest for Computer Society
-                            of India (JMI chapter).
-                        </p>
-                        <a class="button is-light">Visit</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="blogs" class="showcase">
-        <div class="container">
-            <h1 class="title"><span>BLOGS</span></h1>
-            <div class="tile is-ancestor">
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <p class="title">One</p>
-                    </div>
-                    <div class="tile is-child box">
-                        <p class="title">One</p>
-                    </div>
-                </div>
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <p class="title">One</p>
-                    </div>
-                    <div class="tile is-child box">
-                        <p class="title">One</p>
-                    </div>
-                </div>
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <p class="title">One</p>
-                    </div>
-                    <div class="tile is-child box">
-                        <p class="title">One</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div id="overlay"></div>
-
-    <footer class="footer">
-        <div class="content has-text-centered">
-            <p>
-                Made by <strong>Syed Faraaz Ahmad</strong>.
-            </p>
-            <a href="https://bulma.io">
-                <img id="bulma" src="https://bulma.io/images/made-with-bulma--semiwhite.png" alt="Made with Bulma">
-            </a>
-        </div>
-    </footer>
-
 </body>
 </html>
