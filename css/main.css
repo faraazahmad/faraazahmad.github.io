@@ -27,3 +27,18 @@
 .hero .column {
     text-align: center;
 }
+
+.heading {
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: none;
+}
+
+.projects .card {
+    border-radius: 5px;
+    text-align: left;
+}
+
+.media-left img {
+    border-radius: 2.5px;
+}
