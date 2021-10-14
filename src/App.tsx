@@ -21,7 +21,7 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="bg-eggshell">
       <div className="md:container md:mx-auto px-40 bg-eggshell min-h-screen">
         <Navbar />
         <Intro />
