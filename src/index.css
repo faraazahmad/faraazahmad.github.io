@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.top-desc {
+  display: none;
+}
+
+.scroll-top:hover .top-desc {
+  display: inline;
+}
+
+.font-logo {
+  font-family: "Neucha", cursive;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.social {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.email {
+  transform: rotate(90deg);
+  position: fixed;
+  bottom: 7rem;
+  right: -3rem;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  /* 50% {
+    transform: rotate(0deg);
+  } */
+
+  75% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.person {
+  animation: rotate 40s infinite linear;
+}
