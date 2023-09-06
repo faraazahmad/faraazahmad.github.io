@@ -15,7 +15,7 @@ function Experience() {
             <a
               target="_blank"
               href="https://deepsource.com"
-              className="text-terracotta font-bold"
+              className="text-terracotta font-bold ml-2"
             >
               DeepSource
             </a>
@@ -52,6 +52,7 @@ function Experience() {
 			</li>
           </ul>
 
+			<br/>
 			<span className="font-bold">
 				Skills: Vue, Ruby on Rails, GraphQL, Ruby, Golang, Docker, Grafana
 			</span>
@@ -63,7 +64,7 @@ function Experience() {
             <a
               target="_blank"
               href="https://optum.com"
-              className="text-terracotta font-bold"
+              className="text-terracotta font-bold ml-2"
             >
               Optum
             </a>
@@ -95,6 +96,7 @@ function Experience() {
             </li>
           </ul>
 
+			<br/>
 			<span className="font-bold">
 				Skills: Java, Spring Boot, MySQL, TypeScript, React, Angular
 			</span>
