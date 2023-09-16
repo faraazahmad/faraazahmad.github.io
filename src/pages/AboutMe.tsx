@@ -2,16 +2,15 @@ import faraaz from "../faraaz.jpg";
 
 function AboutMe() {
   return (
-    <div id="about-me" className="container p-10 my-10">
+    <div id="about-me" className="container p-10 lg:my-10 md:my-10">
       <div className="flex">
-        <div className="p-10 w-1/2">
+        <div className="p-10 w-1/2 hidden md:block lg:block">
           <img
             style={{ boxShadow: "-1rem -1rem #F2CC8F", borderRadius: "1rem" }}
             src={faraaz}
             alt=""
           />
         </div>
-
         <div>
           <p>
             <span className="font-mono text-3xl text-independence">01.</span>
@@ -19,6 +18,14 @@ function AboutMe() {
               &nbsp;about me
             </span>
           </p>
+
+          <div className="p-10 w-1/2 md:hidden lg:hidden">
+            <img
+              style={{ boxShadow: "-1rem -1rem #F2CC8F", borderRadius: "1rem" }}
+              src={faraaz}
+              alt=""
+            />
+          </div>
 
           <p className="block my-5 w-3/4">
             Hello! My name is Faraaz and I enjoy building interesting things

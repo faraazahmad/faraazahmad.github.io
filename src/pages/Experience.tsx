@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <div id="experience" className="container p-10 my-10">
+    <div id="experience" className="container p-10 lg:my-10 md:my-10">
       <p>
         <span className="font-mono text-3xl text-independence">02.</span>
         <span className="font-logo text-5xl text-terracotta">
@@ -8,7 +8,7 @@ function Experience() {
         </span>
       </p>
 
-      <div className="block my-5 w-3/4">
+      <div className="block my-5 w-full lg:w-3/4 md:w-3/4">
         <p className="my-10 bg-white p-10 border-solid border-4 border-champagne-200 hover:border-champagne-500 rounded-lg">
           <h3 className="text-xl">
             Software Engineer at

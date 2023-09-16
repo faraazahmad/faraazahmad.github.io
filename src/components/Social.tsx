@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Social() {
   return (
-    <div className="social p-5 pl-10 text-independence">
+    <div className="social p-5 pl-10 text-independence hidden md:block lg:block">
       <span className="block my-5 hover:text-terracotta">
         <a href="https://linkedin.com/in/syedfaraazahmad" target="_blank">
           <FontAwesomeIcon icon={faLinkedin} className="text-xl align-bottom" />

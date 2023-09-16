@@ -7,7 +7,7 @@ function Navbar() {
         </span>
       </div>
       <div></div>
-      <div className="space-x-10 pt-2 font-mono text-sm text-independence">
+      <div className="hidden md:inline lg:inline space-x-10 pt-2 font-mono text-sm text-independence">
         <a href="#about-me" className="hover:text-terracotta">
           <span className="text-terracotta">01. </span>
           About Me

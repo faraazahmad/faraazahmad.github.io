@@ -10,7 +10,7 @@ function BlogPosts() {
         </span>
       </p>
 
-      <div className="flex pt-10">
+      <div className="flex pt-10 flex-col lg:flex-row">
         <Post
           title="I was bored, so I built a programming language"
           link="https://bit.ly/tisp-lang"

@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="bg-eggshell">
-      <div className="md:container md:mx-auto px-40 bg-eggshell min-h-screen">
+      <div className="md:container md:mx-auto lg:px-40 bg-eggshell min-h-screen">
         <Navbar />
         <Intro />
         <AboutMe />

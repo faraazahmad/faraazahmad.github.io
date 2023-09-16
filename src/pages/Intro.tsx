@@ -2,7 +2,7 @@ import personClipArt from "../person.png";
 
 function Intro() {
   return (
-    <div className="container px-10 py-40">
+    <div className="container px-10 lg:py-40">
       <div className="flex">
         <div>
           <span className="font-mono text-lg block text-independence">
@@ -18,13 +18,13 @@ function Intro() {
           </span>
 
           <p className="block my-5 w-3/4">
-            I’m fullstack software engineer that builds engaging, responsive
+            I'm fullstack software engineer that builds engaging, responsive
             frontends and solid, reliable backends. I love to try new
             technologies and build cool stuff with them.
           </p>
         </div>
 
-        <div className="person">
+        <div className="person hidden md:inline lg:inline">
           <img src={personClipArt} alt="person clip art" />
         </div>
       </div>
