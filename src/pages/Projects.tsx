@@ -4,6 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import tispSS from "../tisp.png";
 import apiLandSS from "../apiland.png";
 import loopSS from "../loop.png";
+import { IconLookup } from "@fortawesome/fontawesome-svg-core";
 
 function Projects() {
   return (
@@ -164,7 +165,7 @@ function Projects() {
       <p className="p-5 text-center text-l">
         <a href="https://github.com/faraazahmad" target="_blank">
           <button className="text-gray-800 px-7 py-4 bg-champagne-200 rounded hover:bg-champagne-500">
-            <FontAwesomeIcon icon={faGithub} className="text-xl align-bottom" />
+            <FontAwesomeIcon icon={faGithub as IconLookup} className="text-xl align-bottom" />
             &emsp; View more projects at Github
           </button>
         </a>

@@ -1,3 +1,4 @@
+import { IconLookup } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithub,
   faTwitter,
@@ -10,17 +11,17 @@ function Social() {
     <div className="social p-5 pl-10 text-independence hidden md:block lg:block">
       <span className="block my-5 hover:text-terracotta">
         <a href="https://linkedin.com/in/syedfaraazahmad" target="_blank">
-          <FontAwesomeIcon icon={faLinkedin} className="text-xl align-bottom" />
+          <FontAwesomeIcon icon={faLinkedin as IconLookup} className="text-xl align-bottom" />
         </a>
       </span>
       <span className="block my-5 hover:text-terracotta">
         <a href="https://twitter.com/Faraaz98" target="_blank">
-          <FontAwesomeIcon icon={faTwitter} className="text-xl align-bottom" />
+          <FontAwesomeIcon icon={faTwitter as IconLookup} className="text-xl align-bottom" />
         </a>
       </span>
       <span className="block my-5 hover:text-terracotta">
         <a href="https://github.com/faraazahmad" target="_blank">
-          <FontAwesomeIcon icon={faGithub} className="text-xl align-bottom" />
+          <FontAwesomeIcon icon={faGithub as IconLookup} className="text-xl align-bottom" />
         </a>
       </span>
     </div>
