@@ -6,8 +6,6 @@ import Projects from "./pages/Projects";
 import BlogPosts from "./pages/BlogPosts";
 import Footer from "./pages/Footer";
 
-import Social from "./components/Social";
-import Email from "./components/Email";
 import Top from "./components/Top";
 
 import "./App.css";
@@ -21,7 +19,7 @@ function App() {
   });
 
   return (
-    <div className="bg-white">
+    <div>
       <div className="bg-white min-h-screen">
         <Navbar />
         <Intro />

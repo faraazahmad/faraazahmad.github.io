@@ -20,7 +20,7 @@ function Experience() {
 						<a
 							target="_blank"
 							href="https://readyspaces.com"
-							className="text-terracotta font-bold"
+							className="text-orange-600 font-bold"
 						>
 							<h3 className="text-2xl">
 								ReadySpaces
@@ -40,7 +40,7 @@ function Experience() {
 						<a
 							target="_blank"
 							href="https://deepsource.com"
-							className="text-terracotta font-bold"
+							className="text-orange-600 font-bold"
 						>
 							<h3 className="text-2xl">
 								DeepSource
@@ -60,7 +60,7 @@ function Experience() {
 						<a
 							target="_blank"
 							href="https://optum.com"
-							className="text-terracotta font-bold"
+							className="text-orange-600 font-bold"
 						>
 							<h3 className="text-2xl">
 								Optum
@@ -80,7 +80,7 @@ function Experience() {
 						<a
 							target="_blank"
 							href="https://prifina.com"
-							className="text-terracotta font-bold"
+							className="text-orange-600 font-bold"
 						>
 							<h3 className="text-2xl">
 								Prifina
