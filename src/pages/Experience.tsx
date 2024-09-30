@@ -1,138 +1,96 @@
 function Experience() {
-  return (
-    <div id="experience" className="container p-10 lg:my-10 md:my-10">
-      <p>
-        <span className="font-mono text-3xl text-independence">02.</span>
-        <span className="font-logo text-5xl text-terracotta">
-          &nbsp;where i've worked
-        </span>
-      </p>
-
-      <div className="block my-5 w-full lg:w-3/4 md:w-3/4">
-        <p className="my-10 bg-white p-10 border-solid border-4 border-champagne-200 hover:border-champagne-500 rounded-lg">
-          <h3 className="text-xl">
-            Software Engineer at
-            <a
-              target="_blank"
-              href="https://deepsource.com"
-              className="text-terracotta font-bold ml-2"
-            >
-              DeepSource
-            </a>
-          </h3>
-          <span className="font-mono">Sep 2022 - Sep 2023</span>
-          <br />
-          <br />
-          DeepSource is a code health company that statically analyzes your code and finds quality and secuity issues.
-          <br />
-          <ul className="list-disc">
-            <li>
-              Led development of best-in-class Ruby static analyzer that detects 300+ code-quality & security issues
-			  in Ruby/Rails codebases.
-            </li>
-            <li>
-              Achieved 15x performance improvement in Ruby static analyzer using extensive benchmarking, 
-			  CPU profiling and caching.
-            </li>
-            <li>
-				Built new techniques using static analysis and migration-stitching to extract semantic information from Ruby on Rails applications.
-			</li>
-            <li>
-              Integrated real-time performance monitoring of services using Grafana
-            </li>
-            <li>
-				Led re-architecture and development of secrets scanning analyzer that automatically detects and 
-				flags 100+ hardcoded API tokens.
-            </li>
-            <li>
-              Created automated performance testing for static analyzers that runs in self-hosted Github actions.
-            </li>
-			<li>
-				Created a graphical interface for MISRA-C code compliance reports.
-			</li>
-          </ul>
-
-			<br/>
-			<span className="font-bold">
-				Skills: Vue, Ruby on Rails, GraphQL, Ruby, Golang, Docker, Grafana
-			</span>
-        </p>
-
-        <p className="my-10 bg-white p-10 border-solid border-4 border-champagne-200 hover:border-champagne-500 rounded-lg">
-          <h3 className="text-xl">
-            Software Engineer at
-            <a
-              target="_blank"
-              href="https://optum.com"
-              className="text-terracotta font-bold ml-2"
-            >
-              Optum
-            </a>
-          </h3>
-          <span className="font-mono">Aug 2020 - Sep 2022</span>
-          <br />
-          <br />
-          Optum is a company that builds products and services for UnitedHealth
-          Group, a major health care and insurance company in the USA. <br />{" "}
-          <br />
-          <ul className="list-disc">
-            <li>
-              Improved frontend load times by 14% by reducing bundle size and caching requests using service workers.
-            </li>
-            <li>
-              Built advanced search to improve the discoverability of fields in insurance forms.
-            </li>
-            <li>
-				Worked on an internal tool to instantly notify multiple developer teams of database schema changes
-			</li>
-            <li>
-              Mentored a team of junior developers to identify areas of improvement and growth
-            </li>
-            <li>
-              Used code splitting and tree shaking to reduce frontend bundle sizes and improve website load times
-            </li>
-            <li>
-              Integrated event-based microservices by standardizing API results
-            </li>
-          </ul>
-
-			<br/>
-			<span className="font-bold">
-				Skills: Java, Spring Boot, MySQL, TypeScript, React, Angular
-			</span>
-        </p>
-
-        <p className="my-10 bg-white p-10 border-solid border-4 border-champagne-200 hover:border-champagne-500 rounded-lg">
-          <h3 className="text-xl">
-            Software Engineering Intern at&nbsp;
-            <a
-              target="_blank"
-              href="https://prifina.com"
-              className="text-terracotta font-bold"
-            >
-              Prifina
-            </a>
-          </h3>
-          <span className="font-mono">Jul 2019 - Oct 2019</span>
-          <br />
-          <br />
-          Prifina is a venture-backed company offering resources for developers
-          to build apps that run on top of user-held data.
-          <br /> <br />
-          <ul className="list-disc">
-            <li>
-              Worked on Data request API for 3rd parties, using Serverless
-              framework on AWS Lambda
-            </li>
-            <li>
-              Introduced the need for a GraphQL API for such a project, which
-              has now been released
-            </li>
-          </ul>
-        </p>
-      </div>
-    </div>
-  );
+	return (
+		<div id="experience" className="bg-teal-400 p-10">
+			<div className="container mx-auto">
+				<h2 className="font-logo text-7xl my-4 font-black text-white">
+					where i've worked
+				</h2>
+				<br/>
+				<div className="flex flex-col md:grid grid-cols-4 w-full gap-8 my-5 w-full font-logo">
+					<p className="bg-white p-10 rounded-lg relative">
+						<div
+							className="absolute text-lg -top-4 -left-4 bg-red-500 text-white rounded-full px-4 py-2 font-bold font-logo"
+						>
+							04
+						</div>
+						<span className="text-sm">Oct 2023 - Present</span>
+						<br/>
+						<br/>
+						<p>Software Contractor</p>
+						<a
+							target="_blank"
+							href="https://readyspaces.com"
+							className="text-terracotta font-bold"
+						>
+							<h3 className="text-2xl">
+								ReadySpaces
+							</h3>
+						</a>
+					</p>
+					<p className="bg-white p-10 rounded-lg relative">
+						<div
+							className="absolute text-lg -top-4 -left-4 bg-red-500 text-white rounded-full px-4 py-2 font-bold font-logo"
+						>
+							03
+						</div>
+						<span className="text-sm">Sep 2022 - Sep 2023</span>
+						<br/>
+						<br/>
+						<p>Software Engineer I</p>
+						<a
+							target="_blank"
+							href="https://deepsource.com"
+							className="text-terracotta font-bold"
+						>
+							<h3 className="text-2xl">
+								DeepSource
+							</h3>
+						</a>
+					</p>
+					<p className="bg-white p-10 rounded-lg relative">
+						<div
+							className="absolute text-lg -top-4 -left-4 bg-red-500 text-white rounded-full px-4 py-2 font-bold font-logo"
+						>
+							02
+						</div>
+						<span className="text-sm">Aug 2020 - Sep 2022</span>
+						<br/>
+						<br/>
+						<p>Associate<br/>Software Engineer II</p>
+						<a
+							target="_blank"
+							href="https://optum.com"
+							className="text-terracotta font-bold"
+						>
+							<h3 className="text-2xl">
+								Optum
+							</h3>
+						</a>
+					</p>
+					<p className="bg-white p-10 rounded-lg relative">
+						<div
+							className="absolute text-lg -top-4 -left-4 bg-red-500 text-white rounded-full px-4 py-2 font-bold font-logo"
+						>
+							01
+						</div>
+						<span className="text-sm">Jul 2019 - Oct 2019</span>
+						<br/>
+						<br/>
+						<p>Software Engineering Intern</p>
+						<a
+							target="_blank"
+							href="https://prifina.com"
+							className="text-terracotta font-bold"
+						>
+							<h3 className="text-2xl">
+								Prifina
+							</h3>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default Experience;

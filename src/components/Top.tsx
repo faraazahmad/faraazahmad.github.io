@@ -12,7 +12,7 @@ function Top(props: TopProps) {
   if (scrollY !== 0) {
     return (
       <a
-        className="scroll-top bg-terracotta hover:bg-red-400 text-white px-4 py-2 m-5 rounded-md"
+        className="scroll-top bg-rose-500 hover:bg-red-600 text-white px-4 py-2 m-5 rounded-md"
         href="#navbar"
       >
         <FontAwesomeIcon icon={faArrowUp as IconLookup} />

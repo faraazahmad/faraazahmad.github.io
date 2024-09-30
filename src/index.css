@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap");
 
 @tailwind base;
@@ -20,7 +20,9 @@
 }
 
 .font-logo {
-  font-family: "Neucha", cursive;
+  font-family: "Inter", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-style: normal;
 }
 
 .font-mono {
@@ -28,40 +30,14 @@
 }
 
 .social {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
 }
 
 .email {
   transform: rotate(90deg);
-  position: fixed;
+  position: absolute;
   bottom: 7rem;
   right: -3rem;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(-10deg);
-  }
-
-  /* 50% {
-    transform: rotate(0deg);
-  } */
-
-  75% {
-    transform: rotate(20deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.person {
-  animation: rotate 40s infinite linear;
 }

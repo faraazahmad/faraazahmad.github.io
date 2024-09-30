@@ -1,31 +1,16 @@
-import personClipArt from "../person.png";
-
 function Intro() {
   return (
-    <div className="container px-10 lg:py-40">
-      <div className="flex">
-        <div>
-          <span className="font-mono text-lg block text-independence">
-            Hi! I'm
+    <div>
+      <div className="container mx-auto flex p-10 py-20">
+        <div className="">
+          <span className="text-7xl md:text-9xl font-medium block text-slate-800 font-logo">
+            hi, i'm&nbsp;
+			<span className="bg-gradient-to-br font-black from-purple-500 to-blue-500 inline-block text-transparent bg-clip-text">Faraaz.</span>
           </span>
 
-          <span className="text-8xl font-bold block text-terracotta font-logo">
-            Faraaz
+          <span className="text-xl md:text-4xl font-medium md:font-light md:-mt-2 text-slate-400 block">
+            Fullstack software engineer building cool stuff on the side.
           </span>
-
-          <span className="text-4xl font-semibold text-champagne-500 block">
-            I like to build cool projects and write about them.
-          </span>
-
-          <p className="block my-5 w-3/4">
-            I'm fullstack software engineer that builds engaging, responsive
-            frontends and solid, reliable backends. I love to try new
-            technologies and build cool stuff with them.
-          </p>
-        </div>
-
-        <div className="person hidden md:inline lg:inline">
-          <img src={personClipArt} alt="person clip art" />
         </div>
       </div>
     </div>

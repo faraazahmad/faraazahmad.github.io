@@ -21,8 +21,8 @@ function App() {
   });
 
   return (
-    <div className="bg-eggshell">
-      <div className="md:container md:mx-auto lg:px-40 bg-eggshell min-h-screen">
+    <div className="bg-white">
+      <div className="bg-white min-h-screen">
         <Navbar />
         <Intro />
         <AboutMe />
@@ -32,8 +32,6 @@ function App() {
       </div>
 
       <Footer />
-      <Social />
-      <Email />
 
       <Top scrollY={scrollY} />
     </div>
